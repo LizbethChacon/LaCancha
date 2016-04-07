@@ -1,0 +1,54 @@
+.verde{
+	background: #80A273;
+	width: 850px;
+	height: 450px;
+}
+.linea{ 
+	border: 1px solid white;
+	width: 820px;
+	height: 425px;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	/*clear: both;*/
+}
+.interno{
+	border: 1px solid white;
+	width: 100px;
+	height: 150px;
+	position:relative;
+}
+.derecha{
+	float: right;
+	top: 130px;
+	border-right-style: none;
+}
+.izquierda{
+	top: 130px;
+	float: left;
+	border-left-style: none;
+}
+.central{
+	border-radius: 100px;
+	width: 150px;
+	height: 150px;
+	border: 1px solid white;
+	position: absolute;
+	top: 130px;
+	left: 335px;
+}
+#uno{
+	position: absolute;
+	top: 133px;
+	left: 88px;
+}
+#dos{
+	position: absolute;
+	left: 410px;
+	top: 55px;
+}
+#tres{
+	position: absolute;
+	right: 104px;
+	bottom: 148px;
+}
